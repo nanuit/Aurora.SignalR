@@ -1,16 +1,13 @@
-﻿using System;
+﻿using NLog;
+using System;
 using System.Collections.Concurrent;
 using System.Collections.Generic;
 using System.Linq;
-using System.Runtime.Remoting.Contexts;
-using System.Text;
 using System.Threading.Tasks;
-using Microsoft.AspNet.SignalR;
-using NLog;
 
 namespace Aurora.SignalR.Hub
 {
-    
+
     public class ManagedHub : Hub
     {
         #region CLientClass
