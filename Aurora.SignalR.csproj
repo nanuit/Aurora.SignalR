@@ -15,6 +15,7 @@
 		<PackageIcon>nuget.png</PackageIcon>
 		<PackageReleaseNotes>projectfile converted to VS2022</PackageReleaseNotes>
 		<GenerateDocumentationFile>true</GenerateDocumentationFile>
+		<Nullable>enable</Nullable>
 	</PropertyGroup>
 
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
